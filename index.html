@@ -1,59 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>[Projectnaam] living styleguide</title>
+    <title>Funda Styleguide</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <h1>[Projectnaam] styleguide v0.1</h1>
+      <h1>Funda Styleguide</h1>
     </header>
 
-    <nav>
-      <ul>
-        <li><a href="/" class="active">Globals</a></li>
-        <li><a href="/">...</a></li>
-      </ul>
-    </nav>
+    <section class="intro">
+      <h2>Inleiding</h2>
+      <p>
+        Tijdens de analysefase beschrijf ik de Interface Inventory die ik samen
+        met mijn groepje heb gemaakt voor ons project bij Funda...
+      </p>
+    </section>
 
-    <main>
-      <h2>Globals</h2>
+    <!-- Colors Section -->
+    <section class="colors">
+      <h2>Colors 🌈</h2>
+      <div class="color-sample" style="background-color: #ffa500"></div>
+      <p>
+        Kleuren zijn de visuele elementen die sfeer en herkenbaarheid
+        toevoegen...
+      </p>
+    </section>
 
-      <section>
-        <h3>Header</h3>
-        <img src="screenshot_van_je_header.png" alt="screenshot van je header" />
+    <!-- Icons Section -->
+    <section class="icons">
+      <h2>Icons 💟</h2>
+      <img src="icon-example.png" alt="Voorbeeld icoon" />
+      <p>
+        Iconen zijn kleine afbeeldingen die de gebruiker snel laten begrijpen
+        wat een bepaald element doet...
+      </p>
+    </section>
 
-        <h4>Wel doen</h4>
-        <p>Vertel hoe dingen toegepast moeten worden.</p>
+    <!-- Media, Content Images, Typography Section -->
+    <section class="media">
+      <h2>Media, Content Images, Typography 🅰️</h2>
+      <img src="image-example.jpg" alt="Voorbeeld afbeelding" />
+      <p>Media omvat alle visuele en auditieve elementen...</p>
+      <h3>Typography</h3>
+      <p>
+        Bij Funda is het lettertype Proxima Nova één van de belangrijkste
+        huisstijl elementen...
+      </p>
+    </section>
 
-        <h4>Niet doen</h4>
-        <p>Vertel hoe dingen vooral niet toegepast moeten worden.</p>
+    <!-- Logos Section -->
+    <section class="logos">
+      <h2>Logo's 🔆</h2>
+      <img src="logo-example.png" alt="Voorbeeld logo" />
+      <p>Het logo is het herkenbare beeldmerk van Funda...</p>
+    </section>
 
-        <!-- Om HTML in HTML te laten zien gebruik je &lt; voor de < en &gt; voor de > -->
-        <pre><code>&lt;header&gt;
-  &lt;h1&gt;Zo maak je een header&lt;/h1&gt;
-&lt;/header&gt;
+    <!-- Buttons, Forms, Tables Section -->
+    <section class="ui-elements">
+      <h2>Buttons, Forms, Tables 📃</h2>
+      <button class="btn-primary">Aanmelden</button>
+      <form>
+        <label for="username">Gebruikersnaam:</label>
+        <input type="text" id="username" name="username" />
+        <input type="submit" value="Verzenden" />
+      </form>
+      <table>
+        <thead>
+          <tr>
+            <th>Naam</th>
+            <th>Leeftijd</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John Doe</td>
+            <td>30</td>
+          </tr>
+          <tr>
+            <td>Jane Doe</td>
+            <td>25</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Forms, buttons en tables vergemakkelijken interactie en
+        informatie-uitwisseling...
+      </p>
+    </section>
 
-header {
-  background-color: white;
-  margin-bottom: 1rem;
-  color: silver;
-}
+    <!-- Compositions and Hierarchy Section -->
+    <section class="compositions">
+      <h2>Compositions and Hierarchy 🖼</h2>
+      <img src="composition-example.jpg" alt="Voorbeeld compositie" />
+      <p>
+        Bij compositie worden verschillende visuele elementen, zoals logo's,
+        kleuren, tekst, grafische vormen, beelden en iconen, gecombineerd...
+      </p>
+    </section>
 
-header > h1 {
-  font-size: 1rem;
-  text-align: right;
-}
-  </code></pre>
-      </section>
+    <!-- Navigation Section -->
+    <section class="navigation">
+      <h2>Navigation 🧭</h2>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Over ons</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <p>
+        Navigatie omvat de menu's en links waarmee gebruikers door de website
+        kunnen bewegen...
+      </p>
+    </section>
 
-      <section>
-        <h3>Footer</h3>
-        ...
-      </section>
-    </main>
+    <!-- Conclusion Section -->
+    <section class="conclusion">
+      <h2>Conclusie 💁‍♀️</h2>
+      <p>
+        Een goede huisstijl van een website voldoet aan de eisen van
+        herkenbaarheid, consistentie en gebruiksvriendelijkheid...
+      </p>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Funda Styleguide</p>
+    </footer>
   </body>
 </html>
