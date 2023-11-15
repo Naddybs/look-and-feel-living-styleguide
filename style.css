@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #464e56d5;
 }
 
 header,
@@ -22,9 +23,12 @@ h2 {
 }
 
 .color-sample {
-  width: 100px;
-  height: 100px;
-  margin: 10px 0;
+  width: 10em;
+  height: 10em;
+  margin: 10px 0 0 60px ;
+  border-style: solid;
+  border-radius: 50%;
+  display: inline-flex;
 }
 
 .color-examples img {
@@ -139,4 +143,5 @@ img {
   height: 200px;
   object-fit: cover;
   margin: 10px 0;
+ 
 }
