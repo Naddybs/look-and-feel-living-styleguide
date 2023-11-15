@@ -69,13 +69,32 @@ form label {
 }
 
 form input {
-  width: 100%;
+  width: calc(100% - 20px); /* Adjust the width of the input */
   padding: 10px;
   margin-bottom: 10px;
 }
 
+form input[type="submit"] {
+  width: auto; /* Set width to auto for the submit button */
+  padding: 8px 15px; /* Adjust padding for the submit button */
+}
+
+/* Optional: If you want to align the button with the input */
+form input[type="text"],
+form input[type="submit"] {
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.ui-elements {
+  overflow-x: auto; /* Add this line to enable horizontal scrolling */
+}
+
 table {
-  width: 100%;
+  width: calc(
+    100% - 40px
+  ); /* Adjust the width to leave space for the vertical scrollbar */
   border-collapse: collapse;
   margin: 20px 0;
 }
