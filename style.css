@@ -11,11 +11,15 @@ footer {
   background-color: #333;
   color: #fff;
   text-align: center;
-  padding: 1rem 0;
+  padding: 3rem 0;
 }
 
-section {
-  margin: 40px 0;
+
+.intro {
+  height: 17em;
+  background-color: #afc7d496;
+  position: relative;
+  bottom: 1.2em;
 }
 
 h2 {
@@ -26,9 +30,17 @@ h2 {
   width: 10em;
   height: 10em;
   margin: 10px 0 0 60px ;
+  margin-left: 8em;
   border-style: solid;
   border-radius: 50%;
   display: inline-flex;
+  box-shadow: 3px 3px 4px rgba(0,0,0,0.5) inset,
+            3px 3px 10px rgba(0,0,0,0.3) inset;
+}
+
+.code-snippet1{
+  position: relative;
+  right: 0em;
 }
 
 .color-examples img {
@@ -139,8 +151,8 @@ footer p {
 }
 
 img {
-  max-width: 200px;
-  height: 200px;
+  max-width: 250px;
+  /* height: 200px; */
   object-fit: cover;
   margin: 10px 0;
  
