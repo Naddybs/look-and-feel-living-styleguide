@@ -7,8 +7,7 @@ body {
   overflow-x: hidden;
 }
 
-header,
-footer {
+header {
   background-color: #333;
   color: #fff;
   text-align: center;
@@ -143,27 +142,42 @@ h4{
 }
 
 
-
-/* .kader {
-  background-color: azure;
-  padding: 10em;
-  border-radius: 5em;
-} */
-
-
-
-.code-snippet1 img{
-  position: relative;
-  right: 0em;
-  left: 5em;
- height: 20em;
  
-}
+ /* einde colors section */
 
+/* icons section */
+.icons {
+  background-color: hsla(201, 41%, 81%, 0.521);
+  height: 50em;
+  align-items: center;
+  position: relative;
+  bottom: 4em;
+}
+#icons-h2 {
+  color: black;
+  position: relative;
+  top: 1em;
+}
 .icons img {
   max-width: 50px;
   height: auto;
   margin: 10px 0;
+}
+/* einde icons section */
+
+/* media section */
+.media {
+  background-color: #333;
+  height: 50em;
+  align-items: center;
+  position: relative;
+  bottom: 7em;
+}
+
+#media-h2 {
+  color: white;
+  position: relative;
+  top: 1em;
 }
 
 .media img {
@@ -171,11 +185,35 @@ h4{
   height: auto;
   margin: 10px 0;
 }
+/* einde typografie section */
 
+/* logos section */
+.logos{
+  background-color: hsla(201, 41%, 81%, 0.521);
+  height: 50em;
+  align-items: center;
+  position: relative;
+  bottom: 9em;
+}
+
+#logos-h2 {
+  color: black;
+  position: relative;
+  top: 1em;
+}
 .logos img {
   max-width: 200px;
   height: auto;
   margin: 10px 0;
+}
+/* einde logos section */
+
+/* buttons, forms, tables section */
+.ui-elements {
+background-color: #333;
+height: 50em;
+position: relative;
+bottom: 9em;
 }
 
 .btn-primary {
@@ -231,7 +269,33 @@ th,
 td {
   border: 1px solid #333;
 }
+/* einde buttons, forms, tables section */
+/* begin compositions section */
+.compositions{
+  background-color: hsla(201, 41%, 81%, 0.521);
+  height: 50em;
+  position: relative;
+  bottom: 11em;
+}
+#compositions-h2{
+  color: black;
+  position: relative;
+  top: 1em;
+}
+/* einde compositions section */
 
+/* navigation section */
+.navigation {
+  background-color: #333;
+  height: 50em;
+  position: relative;
+  bottom: 13em;
+}
+#navigation-h2 {
+  color: white;
+  position: relative;
+  top: 1em;
+}
 nav ul {
   list-style: none;
   padding: 0;
@@ -242,13 +306,15 @@ nav li {
   display: inline;
   margin-right: 10px;
 }
+/* einde navigation section */
 
-.conclusion {
-  text-align: center;
+footer {
+  background-color: hsla(201, 41%, 81%, 0.521);
 }
-
 footer p {
   margin: 0;
+  text-align: center;
+  padding: 3rem 0;
 }
 
 .color-examples img,
