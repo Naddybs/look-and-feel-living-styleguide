@@ -136,7 +136,12 @@ h4 {
   color: white;
 }
 
-pre{
+.p-text{
+  color: white;
+  position: relative;
+  top: 0.75em;
+}
+/* pre{
   display: flex;
   align-items: center;
   border-style: solid;
@@ -144,18 +149,28 @@ pre{
   border-color: palevioletred;
   background-color: #a3a8ac;
   padding: 3em; 
-}
+} */
+
 .container {
   width: 500px;
-  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: hsla(0, 97%, 85%, 0.773);
+  position: relative;
+  top: 5em;
+  left: 3em;
+  padding: 1.5em;
+  border-radius: 2em;
+  box-shadow: 3px 3px 4px hsla(0, 0%, 0%, 0.5) inset,
+    3px 3px 10px rgba(0, 0, 0, 0.3) inset;
 }
-.language {
-  color: white;
-  background-color: pink;
-  padding: 12px 16px;
-  border-radius: 5px 5px 0 0;
+/* .language {
+  color: #ffffff;
+  background-color: #e72445;
+  /* padding: 15px 16px; */
+  /* border-radius: 5px 5px 0 0;
   text-align: right;
-}
+  position: static; */
+} */
  
  /* einde colors section */
 
