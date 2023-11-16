@@ -219,7 +219,7 @@ pre {
 /* logos section */
 .logos {
   background-color: hsla(201, 41%, 81%, 0.521);
-  height: 70em; /* Adjust the value as needed */
+  height: 100em; /* Adjust the value as needed */
   align-items: center;
   position: relative;
   bottom: 9em;
