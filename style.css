@@ -321,8 +321,8 @@ footer p {
 .icons img,
 .media img,
 .logos img {
-  max-width: 200px;
-  height: 200px;
+  max-width: 300px;
+  height: 300px;
   object-fit: cover;
   margin: 10px 0;
 }
