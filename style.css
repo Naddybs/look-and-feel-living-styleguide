@@ -197,10 +197,23 @@ h4 {
 /* media section */
 .media {
   background-color: #333;
-  height: 50em;
+  height: auto; /* Adjust the height as needed */
   align-items: center;
   position: relative;
   bottom: 7em;
+}
+
+#media-h2 {
+  color: white;
+  position: relative;
+  top: 1em;
+}
+
+.media img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px; /* Adjust margin as needed */
+  display: inline-block; /* Display images as inline-block */
 }
 
 #media-h2 {
@@ -380,4 +393,22 @@ img {
 .ui-elements h6 {
   color: #ffcc00;
   font-size: large;
+}
+
+.ui-elements h5 {
+  color: #007bff;
+  font-size: large;
+}
+
+.ui-elements h6 {
+  color: #ffcc00;
+  font-size: large;
+}
+
+.icons-container {
+  display: flex; /* Use flexbox to create a horizontal layout */
+}
+
+.icons {
+  margin-right: 20px; /* Add margin to create space between images and text */
 }
