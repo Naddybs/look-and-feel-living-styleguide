@@ -117,6 +117,43 @@
         extra context aan de boodschap te geven. Wil je nadruk leggen op een
         icoon? Dan geef het een cirkel achtergrond met een pakkende kleur.
       </p>
+   <br />
+      <details>
+        <summary>Code Snippet do's </summary>
+        <pre>
+            <code>
+              .icon-container {
+                display: flex;
+                align-items: center;
+              }
+          
+              .icon {
+                font-size: 2rem;
+                margin-right: 10px;
+              }
+            </code>
+          </pre>
+      </details>
+      <br />
+  
+      <br />
+      <details>
+        <summary>Code Snippet dont's</summary>
+        <pre>
+            <code>
+             
+              &lt;i class="icon1 fa fa-star">/i&gt;
+             
+              <p>
+                Choose descriptive class names that convey the meaning or purpose of the icon, such as &lt;i class="star-icon yellow star">/i&gt;
+              </p>
+           </code>
+          </pre>
+      </details>
+      <br /> 
+  
+  
+  
     </section>
 
     <!-- Media, Content Images, Typography Section -->
@@ -130,13 +167,61 @@
         src="https://github.com/Naddybs/look-and-feel-living-styleguide/assets/144009698/2c4db67e-e411-4b48-bcf2-1ac37c33a48e"
         alt="Do's and Don'ts typografie"
       />
-      <p>Media omvat alle visuele en auditieve elementen...</p>
+      <p>Media omvat alle visuele en auditieve elementen, content images zijn afbeeldingen die inhoud ondersteunen, en typography gaat overlettertypes. 
+        Media en afbeeldingen trekken de aandacht, terwijl typography de leesbaarheid en uitstraling beïnvloedt. 
+        Media moet relevant zijn, afbeeldingen moeten de boodschap ondersteunen, en typography moet leesbaar en passend zijn.</p>
+     
+     <p>
+      Bij Funda is het lettertype Proxima Nova één van de belangrijkste huisstijl elementen. Het is leesbaar voor zowel web, app als print. Proxima Nova heeft een vriendelijk uiterlijk en is zowel karakteristiek als flexibel.
 
-      <!-- Typography -->
-      <h3>Typography</h3>
-      <!-- Voeg eventuele andere typografie-inhoud toe -->
-      <p>aaa</p>
+     hoe te gebruiken:
+     Proxima Nova Regular voor body teksten
+     Proxima Nova SemiBold voor koppen en quotes (h1 15em, h2 9em, h3 6em)
+     Voor print kies je een variant tussen Light en Extra Bold
+     Hoe korter het woord of de zin hoe groter de tekst kan zijn
+ 
+     </p>
+        <br />
+    <br />
+      <details>
+        <summary>Code Snippet do's</summary>
+        <pre>
+            <code>
+              .media-container {
+                display: flex;
+                align-items: center;
+              }
+          
+              .media {
+                margin-right: 20px;
+              }
+          
+              .media img {
+                max-width: 100%;
+                height: auto;
+              }
+            </code>
+          </pre>
+      </details>
       <br />
+    
+      <br />
+      <details>
+        <summary>Code Snippet dont's</summary>
+        <pre>
+            <code>
+             
+              &lt;div style="margin-right: 20px;"&gt;
+              &lt;img src="path/to/your/image.jpg" alt="Bad Example Image"&gt;
+              <p>
+                Avoid using inline styles for media containers. 
+                Use a separate CSS file or style block for better organization and maintainability.
+              </p>
+           </code>
+          </pre>
+      </details>
+      <br />
+    
     </section>
 
     <!-- Logos Section -->

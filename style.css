@@ -190,6 +190,9 @@ pre {
   bottom: 7em;
 }
 
+.media p{
+  color:#fff;
+}
 #media-h2 {
   color: white;
   position: relative;
