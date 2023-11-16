@@ -4,6 +4,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: hwb(200 73% 11% / 0.339);
+  overflow-x: hidden;
 }
 
 header,
@@ -31,19 +32,22 @@ img.house {
   max-width: 700px;
  
 }
-
+/* headings */
 h1 {
   font-family: AvenirBlack;
   text-transform: uppercase;
   text-align: center;
-  position: relative;
-  left: 7em;
-  top: 3em;
+  position: absolute;
+  left: 9em;
+  top: 7em;
   font-size: 3rem;
 
 }
 
 h2 {
+  font-family: AvenirBlack;
+  text-transform: uppercase;
+  position: relative; 
   color: hsl(0, 27%, 96%);
   text-align: center;
   font-size: 2.5rem;
@@ -62,10 +66,20 @@ h4{
   font-family: ProximaNova;
 }
 
+.colors-h3 {
+  color: white;
+  position: relative;
+  left: 3em;
+  font-family: ProximaNova;
+  font-size: 1.5em;
+}
+/* einde headings */
+
 .colors{
   background-color: #333;
   position: relative;
   bottom: 2em;
+  padding-top: 1em;
 }
 .color-sample {
   width: 10em;
@@ -76,8 +90,60 @@ h4{
   border-radius: 50%;
   display: inline-flex;
   box-shadow: 3px 3px 4px rgba(0,0,0,0.5) inset,
-            3px 3px 10px rgba(0,0,0,0.3) inset;       
+            3px 3px 10px rgba(0,0,0,0.3) inset;  
+  
 }
+
+.color-name{
+  position: relative;
+  left: 1.7em;
+  top: 2.4em;
+  font-size: 1.3em;
+  font-weight: bold;
+
+}
+/* primaire kleuren tekst */
+#oranje-p {
+  color: black;
+}
+#wit-p {
+  color: black;
+}
+#blauw-p {
+  color: #fff;
+}
+#zwart-p {
+  color: white;
+}
+/* secundaire kleuren tekst */
+#bruin-s {
+  color: white;
+}
+#blauw-s {
+  color: #fff;
+}
+#geel-s {
+  color: black;
+}
+#groen-s {
+  color: black;
+}
+/* grijstinten tekst */
+#grijs1-g {
+  color: black;
+}
+#grijs2-g {
+  color: black;
+}
+#grijs3-g {
+  color: white;
+}
+#zwart-g {
+  color: white;
+}
+
+
+
 /* .kader {
   background-color: azure;
   padding: 10em;
@@ -92,12 +158,6 @@ h4{
   left: 5em;
  height: 20em;
  
-}
-
-.color-examples img {
-  max-width: 100%;
-  height: auto;
-  margin: 10px 0;
 }
 
 .icons img {
