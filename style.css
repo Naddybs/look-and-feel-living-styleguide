@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #464e56d5;
+  background-color: hwb(200 73% 11% / 0.339);
 }
 
 header,
@@ -17,17 +17,30 @@ footer {
 
 .intro {
   height: 17em;
-  background-color: hwb(201 32% 31% / 0.521);
+  background-color: hsla(201, 41%, 81%, 0.521);
   display: flex;
   align-items: center;
   min-height: 30em;
 }
 
-.house img{
+img.house {
+
   position: relative;
   left: 5em;
- object-fit: contain;
+  bottom: 3em;
+  max-width: 700px;
  
+}
+
+h1 {
+  font-family: AvenirBlack;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  left: 7em;
+  top: 3em;
+  font-size: 3rem;
+
 }
 
 h2 {
@@ -36,8 +49,21 @@ h2 {
   font-size: 2.5rem;
 }
 
+h3 {
+  color: white;
+}
+
+h4{
+  text-align: center;
+  font-size: 2rem;
+  position: relative;
+  top: 5em;
+  left: 7em;
+  font-family: ProximaNova;
+}
+
 .colors{
-  background-color: hsla(0, 0%, 0%, 0.737);
+  background-color: #333;
   position: relative;
   bottom: 2em;
 }
@@ -57,6 +83,8 @@ h2 {
   padding: 10em;
   border-radius: 5em;
 } */
+
+
 
 .code-snippet1 img{
   position: relative;
