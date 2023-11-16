@@ -4,43 +4,90 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Funda Styleguide</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <h1>Funda Styleguide</h1>
+      <div class="Logo">
+        <img src="assets/Funda.logo-1.png" alt="Funda logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#"></a>Colors</li>
+          <li><a href="#"></a>Icons</li>
+          <li><a href="#"></a>Media</li>
+          <li><a href="#"></a>content images</li>
+          <li><a href="#"></a>Typography</li>
+          <li><a href="#"></a>Logo's</li>
+          <li><a href="#"></a>Buttons</li>
+          <li><a href="#"></a>forms</li>
+          <li><a href="#"></a>tables</li>
+          <li><a href="#"></a>composition</li>
+          <li><a href="#"></a>Hierarchy</li>
+          <li><a href="#"></a>navigation</li>
+        </ul>
+      </nav>
     </header>
-
-    <section class="intro">
-      <h2>Inleiding</h2>
-      <p>
-        Tijdens de analysefase beschrijf ik de Interface Inventory die ik samen
-        met mijn groepje heb gemaakt voor ons project bij Funda...
-      </p>
+    <!-- <h1>Funda Styleguide</h1> -->
+    <section class="intro" id="intro">
+      <div class="content">
+        <h1>Living Styleguide</h1>
+        <h4>Funda</h4>
+        <img class="house" src="assets/Naddy-plaatje-v2.png" alt="house-svg" />
+      </div>
     </section>
 
     <!-- Colors Section -->
-    <section class="colors">
-      <h2>Colors 🌈</h2>
-      <div class="color-sample" style="background-color: #ffa500"></div>
-      <p>
-        Kleuren zijn de visuele elementen die sfeer en herkenbaarheid
-        toevoegen...
-      </p>
+<section class="colors"> 
+ <h2>Colors</h2>
 
-      <!-- Kleurgebruik Funda -->
-      <div class="color-examples">
-        <img
-          src="https://github.com/Naddybs/look-and-feel-living-styleguide/assets/144009698/c0a52245-3c7c-4653-a292-52315f520f8d"
-          alt="Kleurvoorbeeld 1"
-        />
-        <img
-          src="https://github.com/Naddybs/look-and-feel-living-styleguide/assets/144009698/f391b72b-02f5-4274-b4a8-ea5bdbe8918d"
-          alt="Kleurvoorbeeld 2"
-        />
-        <!-- Voeg de rest van de kleurvoorbeelden toe -->
+      <h3 class="colors-h3">Primaire kleuren</h3> 
+      <div class="color-sample" style="background-color: #f7A100"><p class="color-name" id="oranje-p">#F7A100</p></div>
+      <div class="color-sample" style="background-color: #FFFFFF;"><p class="color-name" id="wit-p">#FFFFFF</p></div>
+      <div class="color-sample" style="background-color: #0071B3;"><p class="color-name" id="blauw-p">#0071B3</p></div>
+      <div class="color-sample" style="background-color: #333333;"><p class="color-name" id="zwart-p">#333333</p></div>
+     
+      <h3 class="colors-h3">Secundaire kleuren</h3>
+      <div class="color-sample" style="background-color: #53241b">
+        <p class="color-name" id="bruin-s">#53241B</p>
       </div>
-    </section>
+      <div class="color-sample" style="background-color: #478bb3">
+        <p class="color-name" id="blauw-s">#478BB3</p>
+      </div>
+      <div class="color-sample" style="background-color: #f8c463">
+        <p class="color-name" id="geel-s">#F8C463</p>
+      </div>
+      <div class="color-sample" style="background-color: #66ba96">
+        <p class="color-name" id="groen-s">#66BA96</p>
+      </div>
+
+      <h3 class="colors-h3">Grijstinten</h3>
+      <div class="color-sample" style="background-color: #EDEDED;"><p class="color-name" id="grijs1-g">#EDEDED</p></div>
+      <div class="color-sample" style="background-color: #CCCCCC;"><p class="color-name" id="grijs2-g">#CCCCCC</p></div>
+      <div class="color-sample" style="background-color: #666666;"><p class="color-name" id="grijs3-g">#666666</p></div>
+      <div class="color-sample" style="background-color: #333333;"><p class="color-name" id="zwart-g">#333333</p></div>
+   
+    <div class="container">
+      <p class="language">HTML</p>
+      <div class="code-wrapper">
+     <pre>
+        <code>
+          &lt;h3 class=&quot;colors-h3&quot;&gt;Primaire kleuren&lt;/h3&gt; 
+          &lt;div class=&quot;color-sample&quot; style=&quot;background-color: #f7A100&quot;&gt;&lt;p class=&quot;color-name&quot; id=&quot;oranje-p&quot;&gt;#F7A100&lt;/p&gt;&lt;/div&gt;
+          &lt;div class=&quot;color-sample&quot; style=&quot;background-color: #FFFFFF;&quot;&gt;&lt;p class=&quot;color-name&quot; id=&quot;wit-p&quot;&gt;#FFFFFF&lt;/p&gt;&lt;/div&gt;
+          &lt;div class=&quot;color-sample&quot; style=&quot;background-color: #0071B3;&quot;&gt;&lt;p class=&quot;color-name&quot; id=&quot;blauw-p&quot;&gt;#0071B3&lt;/p&gt;&lt;/div&gt;
+          &lt;div class=&quot;color-sample&quot; style=&quot;background-color: #333333;&quot;&gt;&lt;p class=&quot;color-name&quot; id=&quot;zwart-p&quot;&gt;#333333&lt;/p&gt;&lt;/div&gt;
+        </code>
+     </pre>
+    </div>
+    </div>
+ </section>
+
+    <!-- einde colors section -->
 
     <!-- Icons Section -->
     <section class="icons">
@@ -57,7 +104,7 @@
     
     <!-- Media, Content Images, Typography Section -->
     <section class="media">
-      <h2>Media, Content Images, Typography 🅰️</h2>
+      <h2 id="media-h2">Media, Content Images, Typography</h2>
       <img
         src="https://github.com/Naddybs/look-and-feel-living-styleguide/assets/144009698/d9365177-726f-4e92-95a0-44d99544ccea"
         alt="Voorbeeld afbeelding"
@@ -75,58 +122,136 @@
 
     <!-- Logos Section -->
     <section class="logos">
-      <h2>Logo's 🔆</h2>
+      <h2 id="logos-h2">Logo's</h2>
       <img
         src="https://github.com/Naddybs/look-and-feel-living-styleguide/assets/144009698/39cc549a-9a8e-4779-b6fc-c0ffc423c9f9"
         alt="Voorbeeld logo"
       />
-      <p>Het logo is het herkenbare beeldmerk van Funda...</p>
 
-      <!-- Voeg informatie over logo layout toe -->
+      <!-- Referentietekst over logo's -->
+      <h3>Het logo is het herkenbare beeldmerk van Funda</h3>
+      <p>
+        Het logo is het herkenbare beeldmerk van Funda, het is het gezicht van
+        Funda en draagt bij aan de merkidentiteit. Het logo moet consistent
+        worden toegepast en duidelijk zichtbaar zijn op alle pagina's.
+      </p>
+
+      <p>
+        Funda heeft 4 soorten logo's waardoor de gebruiker weet waar hij zich
+        bevindt:
+      </p>
+      <ul>
+        <li>Funda wonen</li>
+        <li>Funda voor makelaars</li>
+        <li>Funda in business</li>
+        <li>Funda desk</li>
+      </ul>
+
+      <p>Logo layout, wanneer gebruik je bepaalde logo's:</p>
+      <ul>
+        <li>
+          Het logo met de oranje rand is het primaire logo, verwijzend naar de
+          oranje hoofdkleur van funda wonen. Je gebruikt dit logo op een witte
+          achtergrond.
+        </li>
+        <li>
+          Het logo met de blauwe rand gebruik je alleen bij een oranje
+          achtergrond. Probeer het gebruik van dit logo op een niet-oranje
+          achtergrond te vermijden.
+        </li>
+        <li>Het mini logo is het logo voor de app.</li>
+        <li>
+          Het logo met de blauwe rand en bruine letters is het primaire logo,
+          verwijzend naar de blauwe hoofdkleur voor zakelijke gebruikers. Je
+          gebruikt dit logo op een witte achtergrond.
+        </li>
+        <li>
+          Als de primaire logo's niet worden ondersteund, gebruik je het logo in
+          zwart-wit. Dit is alleen toegestaan wanneer er geen andere opties
+          mogelijk zijn.
+        </li>
+      </ul>
+
+      <img
+        src="https://user-images.githubusercontent.com/144009698/282955127-b9b82995-616f-4cf1-b8c8-ec6c387a4a81.png"
+        alt="richtlijnen"
+      />
     </section>
 
     <!-- Buttons, Forms, Tables Section -->
     <section class="ui-elements">
-      <h2>Buttons, Forms, Tables 📃</h2>
+      <h2>Buttons, Forms, Tables</h2>
 
       <!-- Buttons -->
-      <button class="btn-primary">Aanmelden</button>
+      <!-- Voeg de referentie tekst en afbeelding toe -->
+      <h3>Consistente Knoppen</h3>
+      <p>
+        Binnen Funda's huisstijl wordt opmerkelijke aandacht besteed aan de
+        consistentie van kleurgebruik,
+        <br />zelfs in de kleinste details, zoals knoppen. De kleuren die worden
+        toegepast op de knoppen <br />
+        zijn niet alleen visueel aantrekkelijk, maar dienen ook een strategisch
+        doel, vooral gericht op specifieke doelgroepen.
+      </p>
+      <ul>
+        <li>
+          <h6>Oranje:</h6>
+          Voor gebruikers die op zoek zijn naar woninggerelateerde informatie.
+          <br />Het trekt niet alleen de aandacht van de gebruiker, maar het
+          creëert ook een <br />directe associatie met het hoofddoel van Funda:
+          het vinden en verkopen van huizen. <br />Het dient als visuele
+          wegwijzer.
+        </li>
+        <br />
+        <li>
+          <h5>Blauw:</h5>
+          In tegenstelling tot de opvallende oranje kleur, wordt blauw
+          <br />vaak gebruikt voor knoppen binnen de zakelijke categorieën op
+          Funda. <br />Gebruikers die dus op zoek zijn naar zakelijke
+          informatie, zullen <br />eerder blauwe en witte knoppen tegenkomen.
+        </li>
+      </ul>
+      <img
+        alt="Schermafbeelding 2023-11-15 om 00 04 28"
+        src="https://github.com/Naddybs/look-and-feel-living-styleguide/assets/144009698/12d03358-b20d-4d25-8cbd-4ec61152470a"
+      />
+      <!-- Voeg de rest van de referentie tekst toe -->
 
       <!-- Forms -->
-      <form>
-        <label for="username">Gebruikersnaam:</label>
-        <input type="text" id="username" name="username" />
-        <input type="submit" value="Verzenden" />
-      </form>
+      <!-- Voeg de referentie tekst en afbeelding toe -->
+      <p>
+        Ook hier blijkt Funda consistent te zijn met het gebruik van
+        huisstijlkleuren in formulieren.
+        <br />Het gebruik van oranje, blauw en wit is niet willekeurig, maar
+        afgestemd op de specifieke <br />doelstellingen en doelgroepen van de
+        formulieren. Er is een overzichtelijke indeling van <br />formulieren,
+        elke stap is duidelijk met gebruiksvriendelijke labels en instructies om
+        de gebruiker te begeleiden.
+      </p>
+      <img
+        alt="Schermafbeelding 2023-11-15 om 00 19 17"
+        src="https://github.com/Naddybs/look-and-feel-living-styleguide/assets/144009698/311f763f-b0c1-4c0c-bdac-be26fbfcdf85"
+      />
+      <!-- Voeg de rest van de referentie tekst toe -->
 
       <!-- Tables -->
-      <table>
-        <thead>
-          <tr>
-            <th>Naam</th>
-            <th>Leeftijd</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>John Doe</td>
-            <td>30</td>
-          </tr>
-          <tr>
-            <td>Jane Doe</td>
-            <td>25</td>
-          </tr>
-        </tbody>
-      </table>
+      <!-- Voeg de referentie tekst en afbeelding toe -->
       <p>
-        Forms, buttons en tables vergemakkelijken interactie en
-        informatie-uitwisseling...
+        Binnen Funda's ontwerp valt op dat het gebruik van tabellen beperkt is.
+        <br />Funda kiest eerder voor eenvoud en minimalisme, waarbij informatie
+        vaak <br />op een gestructureerde en overzichtelijke manier wordt
+        gepresenteerd <br />zonder het gebruik van tabellen.
       </p>
+      <img
+        alt="Schermafbeelding 2023-11-15 om 00 30 10"
+        src="https://github.com/Naddybs/look-and-feel-living-styleguide/assets/144009698/11609027-8997-4994-b36c-a00abc89e936"
+      />
+      <!-- Voeg de rest van de referentie tekst toe -->
     </section>
 
     <!-- Compositions and Hierarchy Section -->
     <section class="compositions">
-      <h2>Compositions and Hierarchy 🖼</h2>
+      <h2 id="compositions-h2">Compositions and Hierarchy</h2>
       <img
         src="https://github.com/Naddybs/look-and-feel-living-styleguide/assets/144009698/7c2c432c-c8d6-471e-a5ca-62e55a5e8950"
         alt="Voorbeeld compositie"
@@ -139,7 +264,7 @@
 
     <!-- Navigation Section -->
     <section class="navigation">
-      <h2>Navigation 🧭</h2>
+      <h2 id="navigation-h2">Navigation</h2>
       <nav>
         <ul>
           <li><a href="#home">Home</a></li>
@@ -153,17 +278,10 @@
       </p>
     </section>
 
-    <!-- Conclusion Section -->
-    <section class="conclusion">
-      <h2>Conclusie 💁‍♀️</h2>
-      <p>
-        Een goede huisstijl van een website voldoet aan de eisen van
-        herkenbaarheid, consistentie en gebruiksvriendelijkheid...
-      </p>
+    <section>
+      <footer>
+        <p>&copy; 2023 Funda Styleguide</p>
+      </footer>
     </section>
-
-    <footer>
-      <p>&copy; 2023 Funda Styleguide</p>
-    </footer>
   </body>
 </html>
