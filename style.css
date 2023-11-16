@@ -136,14 +136,14 @@ h4 {
   color: white;
 }
 
-pre{
+pre {
   display: flex;
   align-items: center;
   border-style: solid;
   border-radius: 0.5em;
   border-color: palevioletred;
   background-color: #a3a8ac;
-  padding: 3em; 
+  padding: 3em;
 }
 .container {
   width: 500px;
@@ -156,8 +156,8 @@ pre{
   border-radius: 5px 5px 0 0;
   text-align: right;
 }
- 
- /* einde colors section */
+
+/* einde colors section */
 
 /* icons section */
 .icons {
@@ -182,7 +182,7 @@ pre{
 /* media section */
 .media {
   background-color: #333;
-  height: 50em;
+  height: auto; /* Adjust the height as needed */
   align-items: center;
   position: relative;
   bottom: 7em;
@@ -197,8 +197,20 @@ pre{
 .media img {
   max-width: 100%;
   height: auto;
+  margin: 10px; /* Adjust margin as needed */
+  display: inline-block; /* Display images as inline-block */
+}
+
+#media-h2 {
+  color: white;
+  position: relative;
+  top: 1em;
+}
+
+.media img {
+  max-width: 100%;
+  height: auto;
   margin: 10px 0;
-  
 }
 /* einde typografie section */
 
@@ -349,7 +361,6 @@ footer p {
   object-fit: cover;
   margin: 10px 0;
   margin-left: 30px;
-
 }
 
 img {
@@ -386,7 +397,3 @@ img {
 .icons {
   margin-right: 20px; /* Add margin to create space between images and text */
 }
-
-
-
-
