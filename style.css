@@ -4,7 +4,6 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: hwb(200 73% 11% / 0.339);
-  overflow-x: hidden;
 }
 
 header {
@@ -289,7 +288,7 @@ bottom: 2em;
 /* icons section */
 .icons {
   background-color: hsla(201, 41%, 81%, 0.521);
-  height: 70em;
+  height: auto;
   align-items: center;
   position: relative;
   bottom: 4em;
@@ -317,7 +316,7 @@ color: black;
   height: auto; /* Adjust the height as needed */
   align-items: center;
   position: relative;
-  bottom: 7em;
+  bottom: 6em;
 }
 
 .media p{
@@ -356,11 +355,12 @@ color: black;
 /* logos section */
 .logos {
   background-color: hsla(201, 41%, 81%, 0.521);
-  height: 100em; /* Adjust the value as needed */
+  height: 110em; /* Adjust the value as needed */
   align-items: center;
   position: relative;
-  bottom: 9em;
-  margin-left: 5em;
+  margin-left: 0em;
+  margin-top: 0em;
+  bottom: 8em;
 }
 
 section p,
@@ -387,10 +387,8 @@ h3 {
   height: auto; /* Set height to auto or adjust as needed */
   width: 100%; /* Set width to 100% to enlarge the section */
   position: relative;
-  bottom: 9em;
-  overflow-y: auto; /* Add this line to enable vertical scrolling if needed */
-  margin: 5em;
-  margin-top: 3em;
+  bottom: 10.1em;
+  margin-top: 0em;
 }
 
 .ui-elements img {
@@ -448,12 +446,12 @@ td {
 /* begin compositions section */
 .compositions { /*het stukje compositie*/
   background-color: hsla(201, 41%, 81%, 0.521);
+  margin-top: 0em;
   height: 60em;
   position: relative;
-  bottom: 11em;
-  left: 3em;
-  margin: 3em;
-  left: 2em;
+  bottom: 12.2em;
+  left: 0em;
+  margin: 0em;
 }
 #compositions-h2 { /*titel*/
   color: black;
@@ -547,7 +545,7 @@ hr {
   background-color: #333;
   height: 50em;
   position: relative;
-  bottom: 13em;
+  bottom: 14.3em;
 }
 #navigation-h2 {
   color: white;
