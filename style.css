@@ -166,10 +166,9 @@ h5{
   width: 500px;
   margin: 2%;
   background-color: #666;
-  position: relative;
-  top: 1em;
-  left: 40em;
-  bottom: 4em;
+  position: absolute;
+  left: 43em;
+  bottom: 62em;
   padding: 1em 2em 5em 5em;
   border-radius: 5em;
   box-shadow: 3px 3px 4px hsla(0, 0%, 0%, 0.5) inset,
@@ -187,8 +186,9 @@ h5{
 }
 /* kleur kaarten typografie */
 #h2-colors2{
-  position: relative;
-  top: 2em;
+  position: absolute;
+  top: 38em;
+  left: 10em;
 }
 #card1{
   font-size: 3rem;
@@ -229,9 +229,9 @@ bottom: 2em;
   justify-content: center;
   flex-wrap: wrap;
   padding: 10px 0;
-  position: relative;
-  top: 5em;
-  left: 4em;
+  position: absolute;
+  top: 100em;
+  left: 10em;
 }
 .card-brown{
   width: 30%;
@@ -488,29 +488,67 @@ td {
 /* einde compositions section */
 
 /* navigation section */
-.navigation {
+.navigation1 > nav {
   background-color: #333;
   height: 50em;
   position: relative;
   bottom: 13em;
+
+
 }
-#navigation-h2 {
-  color: white;
-  position: relative;
-  top: 1em;
-}
-nav ul {
+
+.navigation1 > #nav1 {
   list-style: none;
   padding: 0;
   margin: 0;
+  
 }
 
-nav li {
+.navigation1  li {
   display: inline;
   margin-right: 10px;
-}
-/* einde navigation section */
 
+  > a{
+    text-decoration: none;
+    color: white;
+    
+  }
+
+}
+
+/* einde navigation section */
+/* nav voorbeeld */
+.navigation-voorbeeld {
+  background-color: #333;
+  height: 30em;
+  position: relative;
+  bottom: 10em;
+}
+.navigation-voorbeeld > nav > navigation-voorbeeld{
+  background-color: hsl(0, 90%, 52%);
+  position: relative;
+  bottom: 13em;
+}
+
+.navigation-voorbeeld > #navigation-h2 {
+  color: #6919e9;
+  position: relative;
+  top: 1em;
+}
+.navigation-voorbeeld li{
+  display: inline;
+  margin: 2em 6em 2em 6em;
+  background-color: pink;
+
+  > a{
+    text-decoration: none;
+    color: white;
+    
+  }
+}
+
+
+/* footer */
 footer {
   background-color: hsla(201, 41%, 81%, 0.521);
 }
