@@ -360,6 +360,7 @@ color: black;
   align-items: center;
   position: relative;
   bottom: 9em;
+  margin-left: 5em;
 }
 
 section p,
@@ -388,6 +389,8 @@ h3 {
   position: relative;
   bottom: 9em;
   overflow-y: auto; /* Add this line to enable vertical scrolling if needed */
+  margin: 5em;
+  margin-top: 3em;
 }
 
 .ui-elements img {
@@ -450,7 +453,7 @@ td {
   bottom: 11em;
   left: 3em;
   margin: 3em;
-  left:3em;
+  left: 2em;
 }
 #compositions-h2 { /*titel*/
   color: black;
