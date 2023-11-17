@@ -457,6 +457,29 @@ td {
   position: relative;
   top: 1em;
 }
+
+.compositions p {
+  line-height: 1.5em;
+  text-align:center;
+  border: dotted;
+  border-color: #fff;
+  left:1em;
+}
+
+#border {
+  place-content: left;
+}
+
+#compositions-img {
+  max-width: 500px;
+  margin: 2em;
+}
+
+#compositions-img2 {
+  max-width: 500px;
+  margin: 2em;
+}
+
 /* einde compositions section */
 
 /* navigation section */
