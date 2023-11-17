@@ -75,7 +75,7 @@ h4 {
   position: relative;
   bottom: 2em;
   padding-top: 1em;
-  height: 100em;
+  height: 150em;
 }
 .color-sample {
   width: 10em;
@@ -91,7 +91,7 @@ h4 {
 
 .color-name {
   position: relative;
-  left: 1.7em;
+  left: 1em;
   top: 2.4em;
   font-size: 1.3em;
   font-weight: bold;
@@ -141,37 +141,157 @@ h4 {
   position: relative;
   top: 0.75em;
 }
-/* pre{
-  display: flex;
-  align-items: center;
-  border-style: solid;
-  border-radius: 0.5em;
-  border-color: palevioletred;
-  background-color: #a3a8ac;
-  padding: 3em; 
-} */
+ 
+/* info kleuren */
+#colors-text{
+  position: absolute;
+  left: 3em;
+  bottom:64em;
+  border-radius: 5em;
+  background-color: #478BB3;
+  box-shadow: 3px 3px 4px hsla(0, 0%, 0%, 0.5) inset,
+    3px 3px 10px rgba(0, 0, 0, 0.3) inset;
+    padding: 1em 3em 0 3em;
+}
+#ul{
+  list-style: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h5{
+  font-size: 17px;
+}
+/* code snippet */
 
 .container {
   width: 500px;
-  overflow-y: hidden;
-  background-color: hsla(0, 97%, 85%, 0.773);
+  margin: 2%;
+  background-color: #666;
   position: relative;
-  top: 5em;
-  left: 3em;
-  padding: 1.5em;
-  border-radius: 2em;
+  top: 1em;
+  left: 40em;
+  bottom: 4em;
+  padding: 1em 2em 5em 5em;
+  border-radius: 5em;
   box-shadow: 3px 3px 4px hsla(0, 0%, 0%, 0.5) inset,
     3px 3px 10px rgba(0, 0, 0, 0.3) inset;
+
 }
-/* .language {
-  color: #ffffff;
-  background-color: #e72445;
-  /* padding: 15px 16px; */
-  /* border-radius: 5px 5px 0 0;
-  text-align: right;
-  position: static; */
-} */
- 
+#code-content{
+  position: relative;
+  right: 2em;
+}
+#language{
+  position: relative;
+  left: 13em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* kleur kaarten typografie */
+#h2-colors2{
+  position: relative;
+  top: 2em;
+}
+#card1{
+  font-size: 3rem;
+}
+#card1-p{
+  color: white;
+  position: relative;
+  bottom: 2em;
+}
+#card2{
+  font-size: 3rem;
+}
+#card2-p{
+color: white;
+position: relative;
+bottom: 2em;
+}
+#card3{
+  font-size: 3rem;
+}
+#card3-p{
+color: #53241B;
+position: relative;
+bottom: 2em;
+}
+#card4{
+  color: black;
+  font-size: 3rem;
+}
+#card4-p{
+color: #DE9000;
+position: relative;
+bottom: 2em;
+}
+.card-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  position: relative;
+  top: 5em;
+  left: 4em;
+}
+.card-brown{
+  width: 30%;
+  margin: 1%;
+  padding: 50px;
+  border-color: palevioletred;
+  border-radius: 8px;
+  position: relative;
+  top: 4em;
+  right: 8em;
+  box-shadow: 0 2px 5px 0 rgba(3,6,26,0.15);
+  background-color: #53241B;
+}
+
+.card-orange{
+  width: 30%;
+  margin: 1%;
+  padding: 50px;
+  border-color: palevioletred;
+  border-radius: 8px;
+  position: relative;
+  top: 4em;
+  right: 5em;
+  box-shadow: 0 2px 5px 0 rgba(3,6,26,0.15);
+  background-color: #F7A100;
+}
+.card-blue{
+  width: 30%;
+  margin: 1%;
+  padding: 50px;
+  border-color: palevioletred;
+  border-radius: 8px;
+  position: relative;
+  top: 6em;
+  right: 8em;
+  box-shadow: 0 2px 5px 0 rgba(3,6,26,0.15);
+  background-color: #006199;
+}
+.card-white{
+  width: 30%;
+  margin: 1%;
+  padding: 50px;
+  border-color: palevioletred;
+  border-radius: 8px;
+  position: relative;
+  top: 6em;
+  right: 5em;
+  box-shadow: 0 2px 5px 0 rgba(3,6,26,0.15);
+  background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
  /* einde colors section */
 
 /* icons section */
