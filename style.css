@@ -284,14 +284,6 @@ bottom: 2em;
 }
 
 
-
-
-
-
-
-
-
-
  /* einde colors section */
 
 /* icons section */
@@ -352,6 +344,10 @@ bottom: 2em;
   height: auto;
   margin: 10px 0;
 }
+
+#media summary {
+  color: white;
+}
 /* einde typografie section */
 
 /* logos section */
@@ -381,7 +377,6 @@ h3 {
 }
 /* einde logos section */
 
-/* buttons, forms, tables section */
 /* buttons, forms, tables section */
 .ui-elements {
   background-color: #949494;
@@ -468,6 +463,8 @@ td {
 
 #border {
   place-content: left;
+  max-width: 500px;
+  margin: 2em;
 }
 
 #compositions-img {
@@ -476,6 +473,11 @@ td {
 }
 
 #compositions-img2 {
+  max-width: 500px;
+  margin: 2em;
+}
+
+#compositions-img3 {
   max-width: 500px;
   margin: 2em;
 }
