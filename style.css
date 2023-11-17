@@ -312,6 +312,8 @@ bottom: 2em;
   height: auto;
   margin: 10px 0;
 }
+
+
 /* einde icons section */
 
 /* media section */
@@ -323,6 +325,9 @@ bottom: 2em;
   bottom: 7em;
 }
 
+.media p{
+  color:#fff;
+}
 #media-h2 {
   color: white;
   position: relative;
@@ -352,7 +357,7 @@ bottom: 2em;
 /* logos section */
 .logos {
   background-color: hsla(201, 41%, 81%, 0.521);
-  height: 70em; /* Adjust the value as needed */
+  height: 100em; /* Adjust the value as needed */
   align-items: center;
   position: relative;
   bottom: 9em;
