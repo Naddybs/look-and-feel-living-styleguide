@@ -289,7 +289,7 @@ bottom: 2em;
 /* icons section */
 .icons {
   background-color: hsla(201, 41%, 81%, 0.521);
-  height: 50em;
+  height: 70em;
   align-items: center;
   position: relative;
   bottom: 4em;
@@ -360,6 +360,7 @@ color: black;
   align-items: center;
   position: relative;
   bottom: 9em;
+  margin-left: 5em;
 }
 
 section p,
@@ -388,6 +389,8 @@ h3 {
   position: relative;
   bottom: 9em;
   overflow-y: auto; /* Add this line to enable vertical scrolling if needed */
+  margin: 5em;
+  margin-top: 3em;
 }
 
 .ui-elements img {
@@ -445,9 +448,12 @@ td {
 /* begin compositions section */
 .compositions { /*het stukje compositie*/
   background-color: hsla(201, 41%, 81%, 0.521);
-  height: 50em;
+  height: 60em;
   position: relative;
   bottom: 11em;
+  left: 3em;
+  margin: 3em;
+  left: 2em;
 }
 #compositions-h2 { /*titel*/
   color: black;
@@ -455,34 +461,83 @@ td {
   top: 1em;
 }
 
-.compositions p { /*tekstje uitleg*/
-  line-height: 1.5em;
-  text-align:center;
-  border: dotted;
-  border-color: #fff;
-  left:1em;
+#compositions-h3 { /*ondertitel*/
+  color: darkslategray;
+  position: absolute;
+  text-align: center;
+  top: 5em;
+  margin: 1.5em;
 }
 
-#border { /*de border van het uitlegstukje alleen deze werkt nog niet*/
-  place-content: left;
-  max-width: 500px;
-  margin: 2em;
+hr {
+  line-height: 2em;
+  color: black;
+  position: relative;
+  top: 4.5em;
+  margin: 1.5em;
+  border: 1px solid black;
+}
+
+#compositions-h4 {
+  color: darkslategray;
+  position: absolute;
+  text-align: center;
+  top: 37em;
+  margin: 1.5em;
 }
 
 /*grootte en plek plaatjes*/
 #compositions-img { 
   max-width: 500px;
   margin: 2em;
-}
-
-#compositions-img2 {
-  max-width: 500px;
-  margin: 2em;
+  position: relative;
+  gap: 2em;
+  top: 4em;
 }
 
 #compositions-img3 {
   max-width: 500px;
   margin: 2em;
+  position: absolute;
+  top: 25em;
+  left: 0em;
+  gap: 1.5em;
+}
+
+#compositions-img2 {
+  position: relative;
+  margin: 2em;
+  max-width: 500px;
+  margin: 2em;
+  gap: 2em;
+  top: 3.7em;
+}
+
+.compositions p { /*tekstje uitleg*/  
+  position: absolute;
+  top: 26em;
+  left: 36em;
+  line-height: 1.5em;
+  text-align:center;
+  border: dotted;
+  border-color: #fff;
+  margin:1.5em;
+  max-width: 450px;
+  padding: 1em;
+  border-width: 0.4em;
+}
+
+#eigensite1 {
+  position: absolute;
+  margin: 1.5em;
+  left: 0.55em;
+  max-width: 500px;
+  gap: 1.5em;
+  top: 46.5em;
+}
+
+#eigensite2 {
+  position: relative;
 }
 
 /* einde compositions section */
