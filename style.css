@@ -455,18 +455,28 @@ td {
   top: 1em;
 }
 
+#compositions-h3 { /*ondertitel*/
+  color: darkslategray;
+  position: absolute;
+  text-align: center;
+  top: 5em;
+  margin: 1.5em;
+}
+
 /*grootte en plek plaatjes*/
 #compositions-img { 
   max-width: 500px;
   margin: 2em;
   position: relative;
+  gap: 2em;
+  top: 4em;
 }
 
 #compositions-img3 {
   max-width: 500px;
   margin: 2em;
   position: absolute;
-  top: 20em;
+  top: 25em;
   left: 0em;
 }
 
@@ -475,11 +485,13 @@ td {
   margin: 2em;
   max-width: 500px;
   margin: 2em;
+  gap: 2em;
+  top: 3.7em;
 }
 
 .compositions p { /*tekstje uitleg*/  
   position: absolute;
-  top: 21em;
+  top: 26em;
   left: 36em;
   line-height: 1.5em;
   text-align:center;
@@ -489,6 +501,14 @@ td {
   max-width: 450px;
   padding: 1em;
   border-width: 0.4em;
+}
+
+#eigensite1 {
+  position: relative;
+}
+
+#eigensite2 {
+  position: relative;
 }
 
 /* einde compositions section */
