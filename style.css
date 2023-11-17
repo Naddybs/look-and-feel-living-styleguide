@@ -445,7 +445,7 @@ td {
 /* begin compositions section */
 .compositions { /*het stukje compositie*/
   background-color: hsla(201, 41%, 81%, 0.521);
-  height: 50em;
+  height: 60em;
   position: relative;
   bottom: 11em;
 }
@@ -455,34 +455,40 @@ td {
   top: 1em;
 }
 
-.compositions p { /*tekstje uitleg*/
-  line-height: 1.5em;
-  text-align:center;
-  border: dotted;
-  border-color: #fff;
-  left:1em;
-}
-
-#border { /*de border van het uitlegstukje alleen deze werkt nog niet*/
-  place-content: left;
-  max-width: 500px;
-  margin: 2em;
-}
-
 /*grootte en plek plaatjes*/
 #compositions-img { 
   max-width: 500px;
   margin: 2em;
-}
-
-#compositions-img2 {
-  max-width: 500px;
-  margin: 2em;
+  position: relative;
 }
 
 #compositions-img3 {
   max-width: 500px;
   margin: 2em;
+  position: absolute;
+  top: 20em;
+  left: 0em;
+}
+
+#compositions-img2 {
+  position: relative;
+  margin: 2em;
+  max-width: 500px;
+  margin: 2em;
+}
+
+.compositions p { /*tekstje uitleg*/  
+  position: absolute;
+  top: 21em;
+  left: 36em;
+  line-height: 1.5em;
+  text-align:center;
+  border: dotted;
+  border-color: #fff;
+  margin:1.5em;
+  max-width: 450px;
+  padding: 1em;
+  border-width: 0.4em;
 }
 
 /* einde compositions section */
