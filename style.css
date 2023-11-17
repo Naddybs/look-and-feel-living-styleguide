@@ -448,6 +448,9 @@ td {
   height: 60em;
   position: relative;
   bottom: 11em;
+  left: 3em;
+  margin: 3em;
+  left:3em;
 }
 #compositions-h2 { /*titel*/
   color: black;
@@ -460,6 +463,23 @@ td {
   position: absolute;
   text-align: center;
   top: 5em;
+  margin: 1.5em;
+}
+
+hr {
+  line-height: 2em;
+  color: black;
+  position: relative;
+  top: 4.5em;
+  margin: 1.5em;
+  border: 1px solid black;
+}
+
+#compositions-h4 {
+  color: darkslategray;
+  position: absolute;
+  text-align: center;
+  top: 37em;
   margin: 1.5em;
 }
 
@@ -478,6 +498,7 @@ td {
   position: absolute;
   top: 25em;
   left: 0em;
+  gap: 1.5em;
 }
 
 #compositions-img2 {
@@ -504,7 +525,12 @@ td {
 }
 
 #eigensite1 {
-  position: relative;
+  position: absolute;
+  margin: 1.5em;
+  left: 0.55em;
+  max-width: 500px;
+  gap: 1.5em;
+  top: 46.5em;
 }
 
 #eigensite2 {
