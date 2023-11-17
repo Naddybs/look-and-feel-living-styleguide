@@ -299,6 +299,9 @@ bottom: 2em;
   position: relative;
   top: 1em;
 }
+.icons h2 {
+color: black;
+}
 .icons img {
   max-width: 50px;
   height: auto;
