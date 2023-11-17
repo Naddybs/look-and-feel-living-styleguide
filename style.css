@@ -439,21 +439,20 @@ td {
 }
 /* einde buttons, forms, tables section */
 
-/* einde buttons, forms, tables section */
 /* begin compositions section */
-.compositions {
+.compositions { /*het stukje compositie*/
   background-color: hsla(201, 41%, 81%, 0.521);
   height: 50em;
   position: relative;
   bottom: 11em;
 }
-#compositions-h2 {
+#compositions-h2 { /*titel*/
   color: black;
   position: relative;
   top: 1em;
 }
 
-.compositions p {
+.compositions p { /*tekstje uitleg*/
   line-height: 1.5em;
   text-align:center;
   border: dotted;
@@ -461,13 +460,14 @@ td {
   left:1em;
 }
 
-#border {
+#border { /*de border van het uitlegstukje alleen deze werkt nog niet*/
   place-content: left;
   max-width: 500px;
   margin: 2em;
 }
 
-#compositions-img {
+/*grootte en plek plaatjes*/
+#compositions-img { 
   max-width: 500px;
   margin: 2em;
 }
