@@ -4,6 +4,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: hwb(200 73% 11% / 0.339);
+  overflow-x: hidden;
 }
 
 header {
@@ -135,28 +136,28 @@ h4 {
   color: white;
 }
 
-.p-text{
+.p-text {
   color: white;
   position: relative;
   top: 0.75em;
 }
- 
+
 /* info kleuren */
-#colors-text{
+#colors-text {
   position: absolute;
   left: 3em;
-  bottom:64em;
+  bottom: 64em;
   border-radius: 5em;
-  background-color: #478BB3;
+  background-color: #478bb3;
   box-shadow: 3px 3px 4px hsla(0, 0%, 0%, 0.5) inset,
     3px 3px 10px rgba(0, 0, 0, 0.3) inset;
-    padding: 1em 3em 0 3em;
+  padding: 1em 3em 0 3em;
 }
-#ul{
+#ul {
   list-style: none;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-h5{
+h5 {
   font-size: 17px;
 }
 /* code snippet */
@@ -172,57 +173,56 @@ h5{
   border-radius: 5em;
   box-shadow: 3px 3px 4px hsla(0, 0%, 0%, 0.5) inset,
     3px 3px 10px rgba(0, 0, 0, 0.3) inset;
-
 }
-#code-content{
+#code-content {
   position: relative;
   right: 2em;
 }
-#language{
+#language {
   position: relative;
   left: 13em;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 /* kleur kaarten typografie */
-#h2-colors2{
+#h2-colors2 {
   position: absolute;
   top: 38em;
   left: 10em;
 }
-#card1{
+#card1 {
   font-size: 3rem;
 }
-#card1-p{
+#card1-p {
   color: white;
   position: relative;
   bottom: 2em;
 }
-#card2{
+#card2 {
   font-size: 3rem;
 }
-#card2-p{
-color: white;
-position: relative;
-bottom: 2em;
+#card2-p {
+  color: white;
+  position: relative;
+  bottom: 2em;
 }
-#card3{
+#card3 {
   font-size: 3rem;
 }
-#card3-p{
-color: #53241B;
-position: relative;
-bottom: 2em;
+#card3-p {
+  color: #53241b;
+  position: relative;
+  bottom: 2em;
 }
-#card4{
+#card4 {
   color: black;
   font-size: 3rem;
 }
-#card4-p{
-color: #DE9000;
-position: relative;
-bottom: 2em;
+#card4-p {
+  color: #de9000;
+  position: relative;
+  bottom: 2em;
 }
-.card-container{
+.card-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -232,7 +232,7 @@ bottom: 2em;
   top: 100em;
   left: 10em;
 }
-.card-brown{
+.card-brown {
   width: 30%;
   margin: 1%;
   padding: 50px;
@@ -241,11 +241,11 @@ bottom: 2em;
   position: relative;
   top: 4em;
   right: 8em;
-  box-shadow: 0 2px 5px 0 rgba(3,6,26,0.15);
-  background-color: #53241B;
+  box-shadow: 0 2px 5px 0 rgba(3, 6, 26, 0.15);
+  background-color: #53241b;
 }
 
-.card-orange{
+.card-orange {
   width: 30%;
   margin: 1%;
   padding: 50px;
@@ -254,10 +254,10 @@ bottom: 2em;
   position: relative;
   top: 4em;
   right: 5em;
-  box-shadow: 0 2px 5px 0 rgba(3,6,26,0.15);
-  background-color: #F7A100;
+  box-shadow: 0 2px 5px 0 rgba(3, 6, 26, 0.15);
+  background-color: #f7a100;
 }
-.card-blue{
+.card-blue {
   width: 30%;
   margin: 1%;
   padding: 50px;
@@ -266,10 +266,10 @@ bottom: 2em;
   position: relative;
   top: 6em;
   right: 8em;
-  box-shadow: 0 2px 5px 0 rgba(3,6,26,0.15);
+  box-shadow: 0 2px 5px 0 rgba(3, 6, 26, 0.15);
   background-color: #006199;
 }
-.card-white{
+.card-white {
   width: 30%;
   margin: 1%;
   padding: 50px;
@@ -278,12 +278,11 @@ bottom: 2em;
   position: relative;
   top: 6em;
   right: 5em;
-  box-shadow: 0 2px 5px 0 rgba(3,6,26,0.15);
+  box-shadow: 0 2px 5px 0 rgba(3, 6, 26, 0.15);
   background-color: #fff;
 }
 
-
- /* einde colors section */
+/* einde colors section */
 
 /* icons section */
 .icons {
@@ -299,14 +298,13 @@ bottom: 2em;
   top: 1em;
 }
 .icons h2 {
-color: black;
+  color: black;
 }
 .icons img {
   max-width: 50px;
   height: auto;
   margin: 10px 0;
 }
-
 
 /* einde icons section */
 
@@ -319,8 +317,8 @@ color: black;
   bottom: 6em;
 }
 
-.media p{
-  color:#fff;
+.media p {
+  color: #fff;
 }
 #media-h2 {
   color: white;
@@ -444,7 +442,8 @@ td {
 /* einde buttons, forms, tables section */
 
 /* begin compositions section */
-.compositions { /*het stukje compositie*/
+.compositions {
+  /*het stukje compositie*/
   background-color: hsla(201, 41%, 81%, 0.521);
   margin-top: 0em;
   height: 60em;
@@ -453,13 +452,15 @@ td {
   left: 0em;
   margin: 0em;
 }
-#compositions-h2 { /*titel*/
+#compositions-h2 {
+  /*titel*/
   color: black;
   position: relative;
   top: 1em;
 }
 
-#compositions-h3 { /*ondertitel*/
+#compositions-h3 {
+  /*ondertitel*/
   color: darkslategray;
   position: absolute;
   text-align: center;
@@ -485,7 +486,7 @@ hr {
 }
 
 /*grootte en plek plaatjes*/
-#compositions-img { 
+#compositions-img {
   max-width: 500px;
   margin: 2em;
   position: relative;
@@ -511,15 +512,16 @@ hr {
   top: 3.7em;
 }
 
-.compositions p { /*tekstje uitleg*/  
+.compositions p {
+  /*tekstje uitleg*/
   position: absolute;
   top: 26em;
   left: 36em;
   line-height: 1.5em;
-  text-align:center;
+  text-align: center;
   border: dotted;
   border-color: #fff;
-  margin:1.5em;
+  margin: 1.5em;
   max-width: 450px;
   padding: 1em;
   border-width: 0.4em;
@@ -552,19 +554,16 @@ hr {
   list-style: none;
   padding: 0;
   margin: 0;
-  
 }
 
-.navigation1  li {
+.navigation1 li {
   display: inline;
   margin-right: 10px;
 
-  > a{
+  > a {
     text-decoration: none;
     color: white;
-    
   }
-
 }
 
 /* einde navigation section */
@@ -575,7 +574,7 @@ hr {
   position: relative;
   bottom: 10em;
 }
-.navigation-voorbeeld > nav > navigation-voorbeeld{
+.navigation-voorbeeld > nav > navigation-voorbeeld {
   background-color: hsl(0, 90%, 52%);
   position: relative;
   bottom: 13em;
@@ -586,18 +585,16 @@ hr {
   position: relative;
   top: 1em;
 }
-.navigation-voorbeeld li{
+.navigation-voorbeeld li {
   display: inline;
   margin: 2em 6em 2em 6em;
   background-color: pink;
 
-  > a{
+  > a {
     text-decoration: none;
     color: white;
-    
   }
 }
-
 
 /* footer */
 footer {
